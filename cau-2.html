@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Câu - 2</title>
+    <script src="Cau-2.js"></script>
+</head>
+<body>
+<script>
+    let array = new Array()
+    let count
+    count = parseInt(prompt('Nhập số lượng phần tử của mảng'))
+    for (let i = 0; i < count; i++) {
+        let j= i+1
+        array[i] = parseInt(prompt('Nhập phần tử thứ ' + j))
+    }
+
+    let n = parseInt(prompt('Nhập phần tử cần kiểm tra'))
+    checkExist(n, array)
+</script>
+
+</body>
+</html>
